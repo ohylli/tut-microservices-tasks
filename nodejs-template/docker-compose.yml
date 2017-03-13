@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+    app1:
+        image: app1
+        network_mode: dmp
+        ports:
+            - "3000:3000"
+    app2:
+        image: app2
+        network_mode: dmp
+        ports:
+            - "3001:3000"
