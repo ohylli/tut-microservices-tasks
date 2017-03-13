@@ -5,7 +5,9 @@ This repository contains additional material related to my presentation for
 
 ## Task 1
 
-The source code of the message bus and example scenario are available at Github. The first task is to get them working. The code repositories don't contain any documentation so here are some tips that will help you in getting the code to work. 
+The source code of [the message bus](https://github.com/soulski/dmp)
+and the [example scenario](https://github.com/soulski/dmp-scenario)
+ are available at GitHub. The first task is to get them working. The code repositories don't contain any documentation so here are some tips that will help you in getting the code to work. 
 
 ### Requirements
 
