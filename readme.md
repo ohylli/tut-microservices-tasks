@@ -25,7 +25,7 @@ IMPORTANT NOTE: Newer versions of go starting from version 1.6 don't work with t
 
 Note I have no experience with Go before this and just basic docker knowledge, so I might have misunderstood something or there might be a better way to do things. So if you find something wrong with these instructions let me know. 
 
-For working with go projects go uses a workspace directory. It can be any directory on your system. The workspace directory is specified with the GOPATH environmentvariable.  The go workspace directory  requires a specific directory structure for go's build, package and dependency management to work correctly. Under your go workspace create the following directory structure: src/github.com/soulski. Clone the message bus and example scenario to directories under the soulski directory.
+For working with go projects go uses a workspace directory. It can be any directory on your system. The workspace directory is specified with the GOPATH environment variable.  The go workspace directory  requires a specific directory structure for go's build, package and dependency management to work correctly. Under your go workspace create the following directory structure: src/github.com/soulski. Clone the message bus and example scenario to directories under the soulski directory.
 
 These projects use make for building the project. First you have to build the message bus but there is an issue. Go to the dmp directory where you cloned the project and issue the following command:
 
