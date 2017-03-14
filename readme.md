@@ -67,7 +67,7 @@ docker-compose logs
 
 The log should show how the message bus instances are first finding each other and then exchanging information between them. Include a part of this log in your reply for this task (no screenshot, direct the output of the command into a file).
 
-After getting the message bus itself compiled and working you can build the example scenario in the dmp-scenario directory. Its build and deployment systems are similar to the message bus itself. When you get it working its web interface is available at http://localhost:8080 (or for your virtual machine host at the VM's ip addres port 8080). From the interface you can see the IP addresses of the different message bus instances. They are listening on port 8080. Get a list of the cluster members in the JSON format from one of them with a HTTP request to its public api (see the paper for how to get the memberlist). Include the response you got to your report for this task.
+After getting the message bus itself compiled and working you can build the example scenario in the dmp-scenario directory. Its build and deployment systems are similar to the message bus itself. When you get it working its web interface is available at http://localhost:8080 (or for your virtual machine host at the VM's ip addres port 8080). From the interface you can see the IP addresses of the different message bus instances. They are listening on port 8080. Get a list of the cluster members in the JSON format from one of them with a HTTP get request to its public api's path /namespace. Include the response you got to your report for this task.
 
 ### Report
 
