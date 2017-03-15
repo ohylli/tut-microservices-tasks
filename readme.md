@@ -1,4 +1,4 @@
-﻿# TUT Seminar on Microservices tasks
+# TUT Seminar on Microservices tasks
 
 This repository contains additional material related to my presentation for 
 [TUT Seminar on Microservices](https://sites.google.com/view/microservices/). It contains detailed instructions for tasks related to my presentation.
